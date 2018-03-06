@@ -1,0 +1,4 @@
+= Demo project for blog post about hibernate-search
+
+This project should demonstrate how to use hibernate-search with spring boot and show
+some of lucenes capabilities for searching.
