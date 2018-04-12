@@ -1,7 +1,6 @@
 package at.willhaben.test.search.models;
+
 import org.hibernate.search.annotations.*;
-
-
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.sql.Date;
@@ -77,8 +76,8 @@ public class AdData {
 
     @Transient
     @Field(name = "text")
-    public String getSearchText(){
-        return title + " "+text;
+    public String getSearchText() {
+        return title + " " + text;
     }
 
     @Transient
